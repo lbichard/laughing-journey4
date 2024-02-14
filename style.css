@@ -1,0 +1,115 @@
+* {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#heading {
+  color: rgb(51, 51, 255);
+  font-size: 50px;
+}
+
+#questionResult {
+  color: rgb(93, 168, 125);
+}
+
+#timerAndScore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+}
+
+#timerAndScore h3 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: tomato;
+}
+
+#scoreBox {
+  color: tomato;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  margin: 5px 30px;
+}
+
+#timerBox {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  margin: 5px 30px;
+}
+
+#timer {
+  background-color: tomato;
+  padding: 10px;
+  border: 2px rgb(212, 78, 55);
+  border-radius: 20px;
+}
+
+#allBlocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#questionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: max-content;
+  padding: 20px;
+}
+
+#questionTitle {
+  font-family: "Courier New", Courier, monospace;
+  color: darkgray;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#choices h4 {
+  color: darkgray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  background-color: rgb(93, 168, 125);
+  border-color: rgb(93, 168, 125);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: rgb(125, 197, 156);
+}
+
+button:active {
+  background-color: rgb(84, 153, 114);
+}
+
+input[type=text] {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: lightgray
+  }

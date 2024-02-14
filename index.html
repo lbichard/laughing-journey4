@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Coding Quiz</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="heading">Code Quiz</h1>
+      <h3 id="questionResult">
+        Test your developer knowledge and challenge your friends!
+      </h3>
+    </header>
+    <div id="allBlocks">
+      <div id="timerAndScore">
+        <section id="timerBox">
+          <h3>COUNTDOWN</h3>
+          <article hidden id="timer"></article>
+        </section>
+        <section id="scoreBox">
+          <h3>LEADERBOARD</h3>
+          <article id="yourScore"></article>
+          <article id="scoreList"></article>
+        </section>
+      </div>
+      <section id="questionBox">
+        <section id="questionNestedBox">
+        <h3 id="questionTitle">Are you ready?</h3>
+        <div id="choices">
+          <h4>Let's Go!</h4>
+          <button id="start">START</button>
+        </div>
+        </section>
+        <button hidden id="done">SUBMIT</button>
+        <form hidden id="initialsField">
+          <input type="text" id="initials" name="initials" min="1" placeholder="Enter Initials Here">
+        </form> 
+      </section>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
